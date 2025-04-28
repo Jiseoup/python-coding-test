@@ -1,3 +1,6 @@
+"""[PCCE 기출문제] 4번 / 병과분류"""
+
+
 code = input()
 last_four_words = code[-4:]
 
