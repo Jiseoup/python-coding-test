@@ -9,6 +9,13 @@ Python 기반의 **코딩 테스트 연습 및 문제 풀이 과정 기록**을 
 - 문제 해결 전략 수립과, 실무에 적용 가능한 다양한 구현 능력 강화  
 
 
+## 📚 프로젝트 구성
+| 디렉토리 | 설명 |
+|----------|------|
+| `Programmers` | [Programmers](https://programmers.co.kr/) 기반의 코딩 테스트 문제 풀이 모음 |
+| `Codility` | [Codility](https://app.codility.com/) 기반의 코딩 테스트 문제 풀이 모음 |
+
+
 ## 🛠 개발 환경
 - **Python Version**: 3.13.3  
 - **IDE**: Visual Studio Code  
