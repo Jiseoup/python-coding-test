@@ -20,7 +20,3 @@ Python 기반의 **코딩 테스트 연습 및 문제 풀이 과정 기록**을 
 - **Python Version**: 3.13.3  
 - **IDE**: Visual Studio Code  
 - **실행 방식**: VSCode 터미널(CLI) 기반으로 `python` 명령어 실행  
-
-
-## 📖 문제 출처
-현재는 [Programmers](https://programmers.co.kr/) 중심으로 문제를 풀이하고 있으며, 추후 [Baekjoon](https://www.acmicpc.net/), [Codility](https://app.codility.com/) 등 다양한 플랫폼으로 확장할 예정입니다.  
