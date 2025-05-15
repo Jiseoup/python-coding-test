@@ -1,17 +1,24 @@
 # Solution of the problem.
+from math import gcd
+
 def solution(N, M):
-    count = 0
-    chocolate = 0
-    eaten = set()
+    """Best Solution: Using GCD(Greatest Common Divisor)"""
+    return N // gcd(N, M)
 
-    # Iterate circular.
-    while chocolate not in eaten:
-        eaten.add(chocolate)
-        count += 1
-        # Prepare next chocolate.
-        chocolate = (chocolate + M) % N
+# def solution(N, M):
+#     """My Solution: Timeout Error Occured"""
+#     count = 0
+#     chocolate = 0
+#     eaten = set()
 
-    return count
+#     # Iterate circular.
+#     while chocolate not in eaten:
+#         eaten.add(chocolate)
+#         count += 1
+#         # Prepare next chocolate.
+#         chocolate = (chocolate + M) % N
+
+#     return count
 
 
 # Test cases for solutions.
